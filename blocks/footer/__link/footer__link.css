@@ -8,10 +8,7 @@
   margin-right: 18px;
   transition: 0.3s;
   cursor: pointer;
-}
-
-.footer__link:last-child {
-  margin-right: 0px;
+  text-decoration: none;
 }
 
 .footer__link:hover {

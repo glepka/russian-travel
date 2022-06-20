@@ -1,3 +1,4 @@
+/* NORMALIZE */
 @import url(/vendor/normalize.css);
 
 /* FONTS */
@@ -59,6 +60,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__link/_margin-right/footer__link_margin-right_none.css);
 
 /* PAGE */
 @import url(../blocks/page/__margin-between-blocks/page____margin-between-blocks.css);
