@@ -1,10 +1,10 @@
-.intro__list{
-    padding: 0;
-    list-style: none;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 150%;   
-    color: #FFFFFF;
+.intro__list {
+  padding: 0;
+  list-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
 }
