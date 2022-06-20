@@ -1,3 +1,8 @@
-.places__paragraphs{
-   
+.places__paragraphs {
+}
+
+@media (max-width: 320px) {
+  .places__paragraphs {
+    padding: 0 16px;
+  }
 }

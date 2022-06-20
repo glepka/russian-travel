@@ -1,0 +1,15 @@
+.page__margin-between-blocks {
+  margin-bottom: 92px;
+}
+
+@media (max-width: 768px) {
+  .page__margin-between-blocks {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page__margin-between-blocks {
+    margin-bottom: 64px;
+  }
+}

@@ -12,3 +12,14 @@ margin-bottom: 26px;
 .places__paragraph:last-child{
     margin-bottom: 0;
 }
+
+
+@media (max-width: 740px) {
+    .places__title {
+        font-size: 16px;
+        line-height: 163%;
+
+             
+    }
+}
+

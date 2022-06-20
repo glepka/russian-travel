@@ -1,8 +1,31 @@
-.intro{
-    width: 984px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    margin-bottom: 92px;
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 940px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 740px) {
+  .intro {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 320px;
+    padding: 0 16px;
+  }
 }

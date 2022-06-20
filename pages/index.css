@@ -1,4 +1,3 @@
-
 @import url(/vendor/normalize.css);
 
 /* FONTS */
@@ -6,6 +5,7 @@
 
 /* PAGE */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);
@@ -20,6 +20,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
@@ -43,7 +44,7 @@
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__website/places__webside.css);
-
+@import url(../blocks/places/__list/places__list.css);
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
@@ -58,3 +59,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
+
+/* PAGE */
+@import url(../blocks/page/__margin-between-blocks/page____margin-between-blocks.css);

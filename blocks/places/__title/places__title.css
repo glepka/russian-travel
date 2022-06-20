@@ -1,10 +1,33 @@
-.places__title{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 106%;
-color: #FFFFFF;
-margin: 0;
-align-self: end;
+.places__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  color: #ffffff;
+  margin: 0;
+  align-self: end;
+  max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .places__title {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media (max-width: 740px) {
+  .places__title {
+    font-size: 42px;
+    line-height: 110%;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__title {
+    font-size: 32px;
+    line-height: 109%;
+    padding: 0 16px;
+  }
 }
