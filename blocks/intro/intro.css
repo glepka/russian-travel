@@ -5,6 +5,7 @@
   flex-direction: column;
   align-self: flex-start;
 }
+
 @media (max-width: 1024px) {
   .intro {
     max-width: 928px;

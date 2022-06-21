@@ -1,10 +1,14 @@
-.places__link{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 122%;
-text-decoration-line: underline;
-color: #FFFFFF;
+.places__link {
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration-line: underline;
+  color: #ffffff;
+  transition: 0.3s;
+}
 
+.places__link:hover {
+  opacity: 0.8;
 }
