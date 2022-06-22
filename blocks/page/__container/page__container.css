@@ -1,6 +1,6 @@
 .page__container {
   margin: 0 auto;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
   max-width: 1184px;
 }
 

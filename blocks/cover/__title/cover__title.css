@@ -18,3 +18,9 @@
     margin-bottom: 16px;
   }
 }
+
+@media (max-width: 320px) {
+  .cover__title {
+    max-width: 250px;
+  }
+}

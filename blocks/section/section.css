@@ -1,15 +1,15 @@
-.page__margin-between-blocks {
+.section {
   margin-bottom: 92px;
 }
 
 @media (max-width: 768px) {
-  .page__margin-between-blocks {
+  .section {
     margin-bottom: 88px;
   }
 }
 
 @media (max-width: 320px) {
-  .page__margin-between-blocks {
+  .section {
     margin-bottom: 64px;
   }
 }

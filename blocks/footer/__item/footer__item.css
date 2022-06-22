@@ -4,4 +4,12 @@
 
 .footer__item:last-of-type {
   margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .footer__item {
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
 }

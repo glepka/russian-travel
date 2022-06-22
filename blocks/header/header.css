@@ -1,6 +1,5 @@
 .header {
-  width: calc(100vw - 48px * 2);
-  max-width: 1148px;
+  width: 1148px;
   min-height: 52px;
   margin: 0 auto;
   display: flex;
@@ -8,16 +7,21 @@
   align-items: flex-end;
 }
 
+@media (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
-    width: calc(100vw - 24px * 2);
+    max-width: 720px;
   }
 }
 
 @media (max-width: 320px) {
   .header {
-    width: calc(100vw - 15px * 2);
+    max-width: 288px;
     min-height: 42px;
-    margin-top: 16px;
   }
 }

@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 160%;
   color: #ffffff;
   margin: 0;
   margin-bottom: 26px;
@@ -13,9 +13,21 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 740px) {
-  .places__title {
-    font-size: 16px;
+@media (max-width: 1024px) {
+  .places__paragraph {
     line-height: 163%;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__paragraph {
+    max-width: 288px;
   }
 }
