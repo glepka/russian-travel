@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
   .places__image {
     max-width: 320px;
     max-height: 320px;

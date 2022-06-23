@@ -24,10 +24,11 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .places__title {
+    max-width: 270px;
     font-size: 32px;
     line-height: 109%;
-    padding: 0 16px;
+    padding-left: 16px;
   }
 }

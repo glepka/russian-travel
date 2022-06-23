@@ -21,7 +21,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .places__place {
     grid-template-columns: 1fr;
     row-gap: 32px;
@@ -29,11 +29,5 @@
   }
   .places__place:last-of-type {
     margin-bottom: 66px;
-  }
-}
-
-@media (max-width: 320px) {
-  .places__place {
-    grid-template-rows: repeat(minmax(min-content, max-content) 545px);
   }
 }
